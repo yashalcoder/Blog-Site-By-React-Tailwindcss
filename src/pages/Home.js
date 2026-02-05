@@ -497,77 +497,77 @@ export default function Home(props) {
         <div className="ml-[150px]">
           <h1 className="text-gray-700 text-xl font-bold">Company</h1>
           <ul className="list-none">
-            <a href="#">
+            <button>
               <li className="mt-4 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 About us
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Our blog
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Customers
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Community
               </li>
-            </a>
+            </button>
           </ul>
         </div>
         <div className="ml-[100px]">
           <h1 className="text-gray-700 text-xl font-bold ">Product</h1>
           <ul className="list-none">
-            <a href="#">
+            <button>
               <li className="mt-4 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Integration
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 What's new
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Pricing
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Help center
               </li>
-            </a>
+            </button>
           </ul>
         </div>
         <div className="ml-[50px]">
           <h1 className="text-gray-700 text-xl font-bold w-[100px]">Legal</h1>
 
           <ul className="list-none">
-            <a href="#">
+            <button>
               <li className="mt-4 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Terms of use
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Privacy policy
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Cookie policy
               </li>
-            </a>
-            <a href="#">
+            </button>
+            <button>
               <li className="mt-2 text-gray-500 hover:text-black hover:cursor-pointer text-md">
                 Site map
               </li>
-            </a>
+            </button>
           </ul>
         </div>
         <div className="ml-[80px]">
@@ -581,26 +581,26 @@ export default function Home(props) {
       </div>
       <div className="container flex border-t-2 mt-20 m-auto">
         <p className="p-9">© 2023 Martex. All Rights Reserved</p>
-        <a href="#">
+        <button>
           <li className="p-9 pr-2 pl-[800px] list-none">
             <img src={fb} width="20px" alt="" />
           </li>
-        </a>
-        <a href="">
+        </button>
+        <button>
           <li className="p-8 pl-2 pr-2 list-none">
             <img src={twitter} width="28px" alt="" />
           </li>
-        </a>
-        <a href="">
+        </button>
+        <button>
           <li className="p-9 pl-2 pr-2 list-none">
             <img src={inta} width="20px" alt="" />
           </li>
-        </a>
-        <a href="">
+        </button>
+        <button>
           <li className="p-9 pl-2 pr-2 list-none">
             <img src={yt} width="25px" alt="" />
           </li>
-        </a>
+        </button>
       </div>
       <div></div>
     </>

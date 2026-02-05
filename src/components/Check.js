@@ -10,13 +10,13 @@ export default function Navbar1() {
   </span>
   <ul>
     <li>
-      <a href='#'>Home</a>
+      <button>Home</button>
     </li>
     <li>
-      <a href='#'>About</a>
+      <button>About</button>
     </li>
     <li>
-      <a href='#'>Work</a>
+      <button>Work</button>
     </li>
   </ul>
 </label>

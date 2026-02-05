@@ -44,7 +44,7 @@ const Navbar = () => {
               />
             </div>
             <div className="hidden md:flexlg:flex space-x-4">
-              <a
+               <button
                 href="#0"
                 className={`group px-1 inline-block font-bold text-md relative ${
                   isSticky ? "text-black" : "text-white"
@@ -52,38 +52,38 @@ const Navbar = () => {
               >
                 About
                 <object className="absolute left-0 top-6 hidden group-hover:block border bg-white p-3 rounded-md">
-                  <a
+                  <button
                     href="#0"
                     className="text-gray-500 hover:text-[#FF3277] block px-3 py-2 rounded-md hover:bg-gray-100 whitespace-nowrap font-bold text-md"
                   >
                     Why Matrix
-                  </a>
-                  <a
+                  </button>
+                   <button
                     href="#0"
                     className="text-gray-500 hover:text-[#FF3277] block px-3 py-2 rounded-md hover:bg-gray-100 whitespace-nowrap font-bold text-md"
                   >
                     Integration
-                  </a>
-                  <a
+                  </button>
+                   <button
                     href="#0"
                     className="text-gray-500 hover:text-[#FF3277] block px-3 py-2 rounded-md hover:bg-gray-100 whitespace-nowrap font-bold text-md"
                   >
                     How It Works
-                  </a>
-                  <a
+                  </button>
+                   <button
                     href="#0"
                     className="text-gray-500 hover:text-[#FF3277] block px-3 py-2 rounded-md hover:bg-gray-100 whitespace-nowrap font-bold text-md"
                   >
                     Best Solutions
-                  </a>
-                  <a
+                  </button>
+                   <button
                     href="#0"
                     className="text-gray-500 hover:text-[#FF3277] block px-3 py-2 rounded-md hover:bg-gray-100 whitespace-nowrap font-bold text-md"
                   >
                     Testimonials
-                  </a>
+                  </button>
                 </object>
-                <a
+                 <button
                   href="#0"
                   className="inline-block font-bold text-md relative"
                 >
@@ -92,24 +92,24 @@ const Navbar = () => {
                     width="15px"
                     alt="Dropdown Icon"
                   />
-                </a>
-              </a>
-              <a
+                </button>
+              </button>
+               <button
                 href="#0"
                 className={`${
                   isSticky ? "text-black" : "text-white"
                 } px-4 inline-block font-bold text-md`}
               >
                 Feature
-              </a>
-              <a
+              </button>
+               <button
                 href="#0"
                 className={`${
                   isSticky ? "text-black" : "text-white"
                 } group px-4 inline-block font-bold text-md relative`}
               >
                 Pages
-                <a
+                 <button
                   href="#0"
                   className="inline-block font-bold text-md relative"
                 >
@@ -118,41 +118,41 @@ const Navbar = () => {
                     width="15px"
                     alt="Dropdown Icon"
                   />
-                </a>
+                </button>
                 <div className="container absolute w-[700px] -left-96 top-6 group-hover:block border bg-white p-3 rounded-md hidden">
                   <div className="flex">{/* Content here */}</div>
                 </div>
-              </a>
-              <a
+              </button>
+               <button
                 href="#0"
                 className={`${
                   isSticky ? "text-black" : "text-white"
                 } px-4 inline-block font-bold text-md`}
               >
                 Pricing
-              </a>
-              <a
+              </button>
+               <button
                 href="#0"
                 className={`${
                   isSticky ? "text-black" : "text-white"
                 } px-4 inline-block font-bold text-md`}
               >
                 FAQs
-              </a>
-              <a
+              </button>
+               <button
                 href="#0"
                 className={`${
                   isSticky ? "text-black" : "text-white"
                 } px-4 inline-block font-bold text-md`}
               >
                 Sign in
-              </a>
-              <a
+              </button>
+               <button
                 href="#0"
                 className="text-white px-5 duration-500 ease-in-out hover:bg-transparent hover:border-white rounded-md border border-[#FF3277] inline-block font-bold text-md bg-[#FF3277] py-2"
               >
                 Sign Up
-              </a>
+              </button>
             </div>
             <div className="lg:hidden">
               <button
@@ -166,60 +166,60 @@ const Navbar = () => {
         </div>
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-black">
-            <a
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               About
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               Feature
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               Pages
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               Pricing
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               FAQs
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className={`${
                 isSticky ? "text-black" : "text-white"
               } block px-4 py-2 font-bold text-md  hover:bg-pink-500`}
             >
               Sign in
-            </a>
-            <a
+            </button>
+             <button
               href="#0"
               className="text-white block px-4 py-2 duration-500 ease-in-out hover:bg-transparent hover:border-white rounded-md border border-[#FF3277] font-bold text-md bg-[#FF3277]"
             >
               Sign Up
-            </a>
+            </button>
           </div>
         )}
       </nav>
